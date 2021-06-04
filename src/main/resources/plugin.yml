@@ -1,0 +1,10 @@
+name: Opclicks
+version: ${project.version}
+main: ca.elimin8.opclicks.Opclicks
+api-version: 1.14
+authors: [ kylevardy_ ]
+description: Click are op. From xNestorio's video
+website: elimin8.ca
+commands:
+  opclicks:
+    description: Toggles OP clicks
