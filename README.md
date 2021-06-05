@@ -106,7 +106,7 @@ BEDROCK-4
 
 # Loot added by me
 
-Due to a suggestion by NiavlySTrust I added some loot.
+Due to a suggestion by NiavlySTrust on Spigot I added some loot.
 
 You now get:
 Obsidian in tier 3
