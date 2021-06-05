@@ -194,7 +194,7 @@ public class onClick implements Listener {
                     }
                 }
                 if (clicks.get(p.getUniqueId()) > 300 & clicks.get(p.getUniqueId()) < 801) {
-                    int rand = new Random().nextInt((11 - 1) + 1) + 1;
+                    int rand = new Random().nextInt((12 - 1) + 1) + 1;
                     switch (rand) {
                         case 1:
                             giveItem(isgen(Material.DIAMOND_SHOVEL), p, 1);
@@ -229,10 +229,13 @@ public class onClick implements Listener {
                         case 11:
                             giveItem(isgen(Material.FIRE_CHARGE, 4, Enchantment.FIRE_ASPECT), p, 1);
                             break;
+                        case 12:
+                            giveItem(isgen(Material.OBSIDIAN), p, 1);
+                            break;
                     }
                 }
                 if (clicks.get(p.getUniqueId()) > 800) {
-                    int rand = new Random().nextInt((10 - 1) + 1) + 1;
+                    int rand = new Random().nextInt((12 - 1) + 1) + 1;
                     switch (rand) {
                         case 1:
                             giveItem(NSSMF(), p, 1);
@@ -263,6 +266,12 @@ public class onClick implements Listener {
                             break;
                         case 10:
                             giveItem(isgen(Material.BEDROCK), p, 1);
+                            break;
+                        case 11:
+                            giveItem(isgen(Material.ENDER_EYE), p, 1);
+                            break;
+                        case 12:
+                            giveItem(isgen(Material.BLAZE_ROD), p, 1);
                             break;
                     }
                 }

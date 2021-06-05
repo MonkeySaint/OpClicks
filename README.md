@@ -103,3 +103,12 @@ DIAMOND_BOOTS-4-PROTECTION:4;FIRE_PROTECTION:4
 ENCHANTED_GOLDEN_APPLE-4
 GOLDEN_APPLE-4
 BEDROCK-4
+
+# Loot added by me
+
+Due to a suggestion by NiavlySTrust I added some loot.
+
+You now get:
+Obsidian in tier 3
+Blaze Rods in tier 4
+Eyes of Ender in tier 4
